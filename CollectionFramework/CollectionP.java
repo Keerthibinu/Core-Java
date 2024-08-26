@@ -2,8 +2,9 @@ package CollectionFramework;
 
 import java.util.*;
 
-public class PrintCollection {
+public class CollectionP {
     public static void main(String[] args) {
+        //Print Collection
         String[] str = {"Hai", "Hello", "How", "are", "you"};
         List<String> list = new ArrayList<String>();
         Collections.addAll(list, str);

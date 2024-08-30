@@ -1,7 +1,6 @@
-package Jav8;
+package Java8;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class LambdaExp {
     public static void main(String[] args) {

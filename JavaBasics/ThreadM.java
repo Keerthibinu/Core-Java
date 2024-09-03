@@ -13,7 +13,7 @@ public class ThreadM {
         t1.start();
         for(int i=0;i<5;i++){
             System.out.println(Thread.currentThread().getName());
-            System.out.println("Main Thread");
+            System.out.println("Main1 Thread");
         }
     }
 }

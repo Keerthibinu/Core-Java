@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class Main {
+public class Main1 {
 	public static void main(String[] args)  {
         		int op;
         		Scanner sc = new Scanner(System.in);
-		Student st = new Student();
+				Student st = new Student();
         		do {
             			System.out.println("\n\nMENU\n1.Add Student\n2.Show Students\n3.Get Class Average\n4.Exit\n\nEnter operation");
             			op = sc.nextInt();

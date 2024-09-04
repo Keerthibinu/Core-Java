@@ -40,17 +40,17 @@ public class Book {
         String borrowerName = sc.nextLine();
         Statement ps = con.createStatement();
         ResultSet rs = ps.executeQuery("SELECT bookName FROM book_details WHERE isBorrowed = false");
-        ArrayList<String> bookNamelist = new ArrayList<String>();
+        ArrayList<String> bookNameList = new ArrayList<String>();
         while (rs.next()) {
-            bookNamelist.add(rs.getString(1));
+            bookNameList.add(rs.getString(1));
         }
         while(true) {
             System.out.println("\nAvailable books are listed below:");
-            for(String i:bookNamelist)
+            for(String i: bookNameList)
                 System.out.println(i);
             System.out.println("\nEnter book name: ");
             String bookName = sc.nextLine();
-            if (bookNamelist.contains(bookName)) {
+            if (bookNameList.contains(bookName)) {
                 String query = "update book_details set isBorrowed = True, borrowerName = ? where bookName= ?";
                 PreparedStatement st = con.prepareStatement(query);
                 st.setString(1, borrowerName);

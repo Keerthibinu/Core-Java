@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="C:/Users/Keerthi/Downloads/Core-Java/Tomcat_Project/src/main/webapp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="C:/Users/Keerthi/Downloads/Core-Java/Tomcat_Project/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/Users/Keerthi/.m2/repository/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-j-9.0.0.jar"/>
+    <PostResources base="C:/Users/Keerthi/.m2/repository/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-4.26.1.jar"/>
+    <PostResources base="C:/Users/Keerthi/.m2/repository/org/apache/commons/commons-fileupload2-jakarta-servlet6/2.0.0-M2/commons-fileupload2-jakarta-servlet6-2.0.0-M2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/commons-fileupload2-jakarta-servlet6-2.0.0-M2.jar"/>
+    <PostResources base="C:/Users/Keerthi/.m2/repository/org/apache/commons/commons-fileupload2-core/2.0.0-M2/commons-fileupload2-core-2.0.0-M2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/commons-fileupload2-core-2.0.0-M2.jar"/>
+    <PostResources base="C:/Users/Keerthi/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/commons-io-2.15.1.jar"/>
+  </Resources>
+</Context>

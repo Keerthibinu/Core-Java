@@ -1,10 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
 <html>
 <head>
-    <title>Registered</title>
+    <title>Result</title>
 </head>
 <body>
-    Hi ${name}
-    Registration Successful!
+    Result is ${result}
 </body>
 </html>

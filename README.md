@@ -50,4 +50,19 @@ The repository is a collection of various Java programs and projects that I've c
    - A simple program using spring core module and its features.
 
 ### 16. **Spring_MVC**
-   - A simple program using spring MVC module and its features.
+   - A Calculator Project implementing addition using spring MVC module.
+
+### 17. **Spring_JPA_demo**
+   - A Student program that adds student information to database using features of JPA.
+
+### 18. **Spring_MVC_JPA**
+   - A  User management Project implementing CRUD operations using spring MVC and JPA.
+
+### 19. **SpringBoot_demo**
+   - A SpringBoot project that implements user crud operations, login, registration and spring security.
+
+### 20. **Postman_demo**
+   - APIs of CRUD operations with different types of HTTP requests where tested using postman software.
+
+   
+
